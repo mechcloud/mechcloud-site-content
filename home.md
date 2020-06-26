@@ -9,7 +9,7 @@ MechCloud is a collection of tools/frameworks around portal technology, docker, 
 ### Torque
 A UI based tool for designing/deploying k8s applications without any knowledge of kubernetes. Torque's simple abstraction on top of #kubernetes helps developers with no or little knowledge of #kubernetes to migrate their #docker applications to #kubernetes in no time.
 
-[![Torque Demo (Feb 5, 2020)](http://img.youtube.com/vi/7hBmpODCrUw/0.jpg)](http://www.youtube.com/watch?v=7hBmpODCrUw "Torque")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kkB7aNI3oek" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Turbine
 A UI based tool to visualize AWS infrastructure.
