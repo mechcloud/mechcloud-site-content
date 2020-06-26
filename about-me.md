@@ -24,7 +24,7 @@ DevOps
 ITOps 
 ----- 
 * Deploy vRA/vSphere/NSX-T on IBM Cloud from scratch (without using anything from 'IBM Cloud for VMWare Solutions' offering). 
-* Wiregurad VPN setup (it was done to overcome absence of client-to-site vpn feature in IBM Cloud VPC/Classic Networking) 
+* Wiregurad VPN setup (it was done to overcome missing client-to-site vpn feature in IBM Cloud VPC/Classic Networking) 
 * Hardware based gateway appliance (AT&T vRouter and Juniper vSRX) 
 
 Open Source
