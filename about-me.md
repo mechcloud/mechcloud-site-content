@@ -1,5 +1,5 @@
 A Technical Cloud Solutions Architect with 15+ years of experience who is into product development, solution engineering, devops and itops. With my knowledge landscape spanning (and covering atleast 30%) to all these areas, I am either able to operate independently or drive teams across these areas towards a common goal and execute projects with greater speed which otherwise suffer due to disconnect among these areas. 
-I play all these roles for my free/OSS projects. I have setup a number of tools (kubernetes clusters, VMware vRA/vSphere/NSX-T, Wireguard VPN, DNS Server for private domain, internal certificate authority etc) for my solution engineering team from scratch to improve their output by 3x. Good understanding of advanced networking concepts (e.g. linux bridge, Open vSwitch, vSphere standard/distributed switch, overlay(VXLAN, GRE, GENEVE). 
+I play all these roles for my free/OSS projects. I have setup a number of tools (kubernetes clusters, VMware vRA/vSphere/NSX-T, Wireguard VPN Server, DNS Server for private domain, internal certificate authority etc) for my solution engineering team from scratch to improve their output by 3x. Good understanding of advanced networking concepts (e.g. linux bridge, Open vSwitch, vSphere standard/distributed switch, overlay(VXLAN, GRE, GENEVE). 
 
 Here are some of the things which I can handle across these areas on my own - 
 
@@ -38,7 +38,7 @@ I am an independent reseacher who is working on a number of free/OSS project (ht
 * Steam (A UI based tool for developing html mockups for a website using any css framework (e.g bootstrap/bulma))  
 * Ignition (A binary protocol server) 
 
-Visa(S)  
+Visa(s)  
 ------
 US B1 Visa valid till July 2024
 
