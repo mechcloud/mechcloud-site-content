@@ -2,8 +2,8 @@
 
 ## What is MechCloud
 MechCloud is a collection of tools/frameworks around portal technology, docker, kubernetes, public clouds (AWS, IBM Cloud) and VMWare SDDC. 
-* ![Youtube](https://tinyurl.com/ycrzvje7)
-* ![Twitter](https://twitter.com/mech_cloud)
+* [Youtube](https://tinyurl.com/ycrzvje7)
+* [Twitter](https://twitter.com/mech_cloud)
 
 ## Tools
 ### Torque
