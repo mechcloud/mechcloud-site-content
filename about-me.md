@@ -1,3 +1,6 @@
+[LinkedIn](https://www.linkedin.com/in/lnkshailendra)
+[Twitter](https://twitter.com/twtshailendra)
+
 A Technical Cloud Solutions Architect with 15+ years of experience who is into product development, solution engineering, devops and itops. With my knowledge landscape spanning (and covering atleast 30%) to all these areas, I am either able to operate independently or drive teams across these areas towards a common goal and execute projects with greater speed which otherwise suffer due to disconnect among these areas. 
 I play all these roles for my free/OSS projects. I have setup a number of tools (kubernetes clusters, VMware vRA/vSphere/NSX-T, Wireguard VPN Server, DNS Server for private domain, internal certificate authority etc) for my solution engineering team from scratch to improve their output by 3x. Good understanding of advanced networking concepts (e.g. linux bridge, Open vSwitch, vSphere standard/distributed switch, overlay(VXLAN, GRE, GENEVE). 
 
