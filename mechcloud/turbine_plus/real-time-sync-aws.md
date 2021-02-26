@@ -1,7 +1,7 @@
 # Real time sync of AWS cloud assets
 
 ## Overall setup
-Purpose of this setup is to deliver [AWS eventbrige events](https://docs.aws.amazon.com/eventbridge/latest/userguide/event-types.html) for supported resource types to a Mechcloud Redis channel/topc (`topic-account-management-events-<aws_account_number>`) which is created after sync is enabled for a cloud account. This setup is just one way of delivering AWS management events to Turbine+ and may not be an optimal setup. So you may do it in a different way as far as end result is same.
+Purpose of this setup is to deliver [AWS eventbrige events](https://docs.aws.amazon.com/eventbridge/latest/userguide/event-types.html) for supported resource types to a Mechcloud Redis channel/topic (`topic-account-management-events-<aws_account_number>`) which is created after sync is enabled for a cloud account. This setup is just one way of delivering AWS management events to Turbine+ and may not be an optimal setup. So you may do it in a different way as far as end result is same.
 
 ![AWS assets real time sync](https://raw.githubusercontent.com/mechcloud/mechcloud-site-content/master/images/mechcloud/turbine/design/real-time-sync-aws.svg)
 
