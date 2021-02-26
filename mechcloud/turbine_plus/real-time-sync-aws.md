@@ -9,6 +9,7 @@
 * Sync is triggered by a cloud provider and it's meant for incremental updates ONLY.
 * It is unidirectional (cloud provider to Turbine+) at this (v2.0.0) moment.
 * In order to setup sync, it should be manually enabled for a cloud account from cloud account context menu item `Enable Sync` after following steps required on cloud provider side (described in a later section below).
+![Enable Sync](https://raw.githubusercontent.com/mechcloud/mechcloud-site-content/master/images/mechcloud/turbine/screenshots/enable-sync.svg)
 ### Discovery 
 * Discovery is initiated by a user from Turbine+ after a new cloud account is added to Turbine so that metadata of existing cloud services/assets can be loaded into Turbine+ database from cloud provider.
 * Discovery will be fetching metadata of all the existing services/assets from cloud provider no matter some or all of these assets are already loaded into Turbine+ database or not.
