@@ -1,26 +1,27 @@
-# Overall setup
+# Real time sync of AWS cloud assets
+
+## Overall setup
 ![AWS assets real time sync](https://raw.githubusercontent.com/mechcloud/mechcloud-site-content/master/images/mechcloud/turbine/design/real-time-sync-aws.svg)
 
-# Sync vs discovery
-## Sync
+## Sync vs discovery
+### Sync
 * Using sync a cloud provider notifies Turbine+ whenever a cloud asset is created, modified or terminated.
 * Sync is triggered by a cloud provider and it's meant for incremental updates ONLY.
 * It is unidirectional (cloud provider to Turbine+) at this (v2.0.0) moment.
 * In order to enable sync, it should be manually enabled for an account from cloud account context menu item `Enable Sync` after following steps required on cloud provider side (described in a later section below).
-## Discovery 
+### Discovery 
 * Discovery is initiated by a user from Turbine+ after a new cloud account is added to Turbine so that metadata of existing cloud services/assets can be loaded into Turbine+ database from cloud provider.
 * Discovery will be fetching metadata of all the existing services/assets from cloud provider no matter some or all of these assets are already loaded into Turbine+ database or not.
 * In addition to running discovery after adding a cloud account, it can also be run in a situation when sync fails for some reason or it is not enabled on an account.
 
-
-# Supported resource types
+## Supported resource types
 * At this moment, only vpc, subnet and virtual server are supported for sync.
 
-# Steps to be followed for a region
+## Steps to be followed for a region
 * These steps should be followed for every region.
 * Update region code (`us-east-1`) as per target region in the following steps.
 
-## SQS Queue
+### SQS Queue
 * Create an sqs queue with following details -
   - Only few details are mentioned here. Other details can be entered/selected as per need.
   - **Details**
@@ -30,8 +31,8 @@
     - Make sure `Content-based deduplication` is enabled.
 
 
-## Rules
-### management-events-tags
+### Rules
+#### management-events-tags
 * Create an eventbridge rule with following details -
   - Only few details are mentioned here. Other details can be entered/selected as per need.
   - **Name and description**
@@ -45,7 +46,7 @@
   - For event bus, select default event bus.
   - Select `SQS queue` as target service, `management-events-us-east-1.fifo` under queue and enter `management-events-tags` in `Message group ID` field.
   - Other values can be left unchanged.
-### management-events-ec2
+#### management-events-ec2
 * Create an eventbridge rule with following details -
   - Only few details are mentioned here. Other details can be entered/selected as per need.
   - **Name and description**
