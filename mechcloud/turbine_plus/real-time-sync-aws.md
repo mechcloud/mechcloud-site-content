@@ -1,11 +1,13 @@
 # Real time sync of AWS cloud assets
 
 ## Overall setup
+Purpose of this setup is to deliver [AWS eventbrige events](https://docs.aws.amazon.com/eventbridge/latest/userguide/event-types.html) for supported resource types to a Mechcloud Redis channel/topc (`topic-account-management-events-<aws_account_number>`) which is created after sync is enabled for a cloud account. This setup is just one way of delivering AWS management events to Turbine+ and may not be an optimal setup. So you may do it in a different way as far as end result is same.
+
 ![AWS assets real time sync](https://raw.githubusercontent.com/mechcloud/mechcloud-site-content/master/images/mechcloud/turbine/design/real-time-sync-aws.svg)
 
 ## Sync vs discovery
 ### Sync
-* Using sync a cloud provider notifies Turbine+ whenever a cloud asset is created, modified or terminated.
+* Using sync a cloud provider notifies Turbine+ whenever a cloud service/asset is created, modified or terminated.
 * Sync is triggered by a cloud provider and it's meant for incremental updates ONLY.
 * It is unidirectional (cloud provider to Turbine+) at this (v2.0.0) moment.
 * In order to setup sync, it should be manually enabled for a cloud account from cloud account context menu as shown below after following steps required on cloud provider side (described in a later section below).
@@ -18,7 +20,9 @@
 * In addition to running discovery after adding a cloud account, it can also be run in a situation when sync fails for some reason or it is not enabled on an account.
 
 ## Supported resource types
-* At this moment, only vpc, subnet and virtual server are supported for sync.
+* VPC - make sure `Name` tag is present while creating a vpc otherwise it will not work.
+* Subnet - make sure `Name` tag is present while creating a subnet otherwise it will not work.
+* Virtual server - `Name` tag is optional for this resource type.
 
 ## Steps to be followed for a region
 * These steps should be followed for every region.
