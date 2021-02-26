@@ -8,7 +8,7 @@
 * Using sync a cloud provider notifies Turbine+ whenever a cloud asset is created, modified or terminated.
 * Sync is triggered by a cloud provider and it's meant for incremental updates ONLY.
 * It is unidirectional (cloud provider to Turbine+) at this (v2.0.0) moment.
-* In order to setup sync, it should be manually enabled for a cloud account from cloud account context menu item `Enable Sync` after following steps required on cloud provider side (described in a later section below).
+* In order to setup sync, it should be manually enabled for a cloud account from cloud account context menu as shown below after following steps required on cloud provider side (described in a later section below).
 
 ![Enable Sync](https://raw.githubusercontent.com/mechcloud/mechcloud-site-content/master/images/mechcloud/turbine/screenshots/enable-sync.png)
 
