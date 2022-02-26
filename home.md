@@ -5,7 +5,7 @@ MechCloud is a collection of tools/frameworks around portal technology, docker, 
 * [Demos](https://tinyurl.com/ycrzvje7)
 * [Helm Charts](https://github.com/mechcloud/mechcloud-helm-charts)
 * [Twitter](https://twitter.com/mech_cloud)
-* [Documentation](https://mechcloud.gitbook.io/mechcloud)
+* [Documentation](https://docs.mechcloud.io)
 
 
 ## Tools
